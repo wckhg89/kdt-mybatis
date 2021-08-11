@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/test;
+    username: sa
+    password:
+mybatis:
+  type-aliases-package: com.kdt.domain.model
+  type-handlers-package: com.kdt.typehandler
+  configuration:
+    map-underscore-to-camel-case: true
+    default-fetch-size: 100
+    default-statement-timeout: 30
