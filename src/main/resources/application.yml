@@ -5,8 +5,8 @@ spring:
     username: sa
     password:
 mybatis:
-  type-aliases-package: com.kdt.domain.model
-  type-handlers-package: com.kdt.typehandler
+  type-aliases-package: com.kdt.lecture.repository.domain
+  type-handlers-package: com.kdt.lecture.typehandler
   configuration:
     map-underscore-to-camel-case: true
     default-fetch-size: 100
