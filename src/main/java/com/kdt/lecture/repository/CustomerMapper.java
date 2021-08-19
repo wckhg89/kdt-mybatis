@@ -7,7 +7,6 @@ import java.util.List;
 
 @Mapper
 public interface CustomerMapper {
-
     @Insert("INSERT INTO customers (id, first_name, last_name) VALUES(#{id}, #{firstName}, #{lastName})")
     void save(Customer customer);
 
