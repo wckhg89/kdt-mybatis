@@ -1,5 +1,8 @@
 package com.kdt.lecture.repository.domain;
 
+import org.apache.ibatis.type.Alias;
+
+@Alias("customers")
 public class Customer {
     private long id;
     private String firstName;
